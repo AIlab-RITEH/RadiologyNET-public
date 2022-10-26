@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# any VS Code workspace settings should not be checked by git
+.vscode/
+
+# dask worker files should not be check by git
+dask-worker-space
+
+# VS Code workspaces file
+*.code-workspace
